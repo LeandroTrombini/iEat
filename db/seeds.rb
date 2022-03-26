@@ -10,3 +10,5 @@
 # user1 = (email: 'leandro@email.com', password: '123456', role: 'restaurant')
 # user2 = (email: 'admin@email.com', password: '123456', role: 'admin')
 # user3 = (email: 'customer@email.com', password: '123456', role: 'customer')
+
+# Start no postgresql => sudo service postgresql restart

@@ -14,7 +14,12 @@
               <tbody>
                 <% r.products.each do |product| %>
                   <tr>
-                    <td> - <%= product.name %> </td>    
+                    <%= form_tag('/orders') do %>
+                      <%= hidden_field_tag :product_id, product.id%>
+                      <td> - <%= product.name %> </td>    
+                      <td> - <%= product.value %> </td>   
+                      <td><%= submit_tag 'Pedir' %></td>
+                    <% end %>   
                   </tr>
                 <% end %>
               </tbody>
