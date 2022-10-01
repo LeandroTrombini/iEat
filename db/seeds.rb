@@ -12,3 +12,5 @@
 # user3 = (email: 'customer@email.com', password: '123456', role: 'customer')
 
 # Start no postgresql => sudo service postgresql restart
+# Strat no redis => redis-server 
+# Start no sidekiq => bundle exec sidekiq
